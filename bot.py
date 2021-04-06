@@ -8,7 +8,7 @@ import random
 import sqlite3 as sl
 from discord.ext.commands import BucketType
 
-with open('./config.json', 'r') as cjson:
+with open('config/config.json', 'r') as cjson:
     config = json.load(cjson)
 
 bot = commands.Bot(command_prefix=['!', '/'])
